@@ -14,7 +14,7 @@ const Login = () => {
                             <div className="p-6 sm:p-16">
                                 <div className="space-y-4">
                                     <img src={logo} loading="lazy" className="w-10" alt="logo" />
-                                    <h2 className="mb-8 text-2xl text-cyan-900 font-bold">Login to unlock the <br /> best of Dream Colleges.</h2>
+                                    <h2 className="mb-8 text-2xl text-cyan-900 font-bold">Login </h2>
                                 </div>
                                 <form onSubmit={handleSubmit}>
                                     <div className="mt-16 grid space-y-4">
@@ -41,7 +41,7 @@ const Login = () => {
 
                                         <input className='flex items-center justify-center group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300  hover:text-black text-white font-semibold bg-gray-800 hover:bg-gray-300 cursor-pointer' type="submit" value="Login" />
 
-                                        <p>Or use any of these...</p>
+                                        {/* <p>Or use any of these...</p>
 
                                         <button
                                             className="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 hover:border-blue-400 focus:bg-blue-50 active:bg-blue-100">
@@ -59,15 +59,15 @@ const Login = () => {
                                                 <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" className="absolute left-0 w-5" alt="Facebook logo" />
                                                 <span className="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-blue-600 sm:text-base">Continue with Facebook</span>
                                             </div>
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </form>
 
-                                <p className='mt-6 font-semibold'>New to Dream Colleges?
+                                {/* <p className='mt-6 font-semibold'>New to Dream Colleges?
                                     <Link className='text-blue-500 ml-3' to={'/signUp'}>Sign up</Link>
                                 </p>
                                 <p className='py-6 '>Forgotten Password?
-                                    <Link className='text-blue-500 ml-3' to={'/forgot-password'}>Reset password</Link></p>
+                                    <Link className='text-blue-500 ml-3' to={'/forgot-password'}>Reset password</Link></p> */}
                             </div>
                         </div>
                     </div>
